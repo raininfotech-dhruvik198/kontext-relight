@@ -1,0 +1,7 @@
+transformers
+accelerate
+safetensors
+sentencepiece
+peft
+
+git+https://github.com/huggingface/diffusers.git
