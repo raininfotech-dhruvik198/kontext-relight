@@ -4,7 +4,7 @@ build:
   python_packages:
     - "torch==2.1.0"
     - "gradio==4.19.1"
-    - "transformers==4.38.2"
+    - "transformers"
     - "accelerate"
     - "safetensors==0.4.2"
     - "sentencepiece==0.2.0"
