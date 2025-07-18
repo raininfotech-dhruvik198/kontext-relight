@@ -1,7 +1,7 @@
 build:
   gpu: true
   python_version: "3.11"
-  python_packages:
+  python_requirements:
     - "torch==2.1.0"
     - "gradio==4.19.1"
     - "transformers"
