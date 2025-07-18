@@ -1,0 +1,14 @@
+build:
+  gpu: true
+  python_version: "3.11"
+  python_packages:
+    - "torch==2.1.0"
+    - "gradio==4.19.1"
+    - "transformers==4.38.2"
+    - "accelerate==0.27.2"
+    - "safetensors==0.4.2"
+    - "sentencepiece==0.2.0"
+    - "peft==0.9.0"
+    - "diffusers @ git+https://github.com/huggingface/diffusers.git"
+
+predict: "app.py:predict"

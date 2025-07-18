@@ -3,5 +3,7 @@ accelerate
 safetensors
 sentencepiece
 peft
+gradio
+torch
 
 git+https://github.com/huggingface/diffusers.git
