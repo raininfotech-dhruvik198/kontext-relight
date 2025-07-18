@@ -1,0 +1,8 @@
+torch==2.3.0
+transformers
+accelerate
+safetensors
+sentencepiece
+peft>=0.15.0
+gradio==4.36.1
+git+https://github.com/huggingface/diffusers.git

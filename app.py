@@ -1,9 +1,9 @@
 import torch
 import random
 from PIL import Image
-from diffusers import FluxKontextPipeline
-from diffusers import FluxTransformer2DModel
-from diffusers.utils import load_image
+from diffusers_fixed.pipelines.flux.pipeline_flux_kontext import FluxKontextPipeline
+from diffusers_fixed.models.flux_transformer_2d import FluxTransformer2DModel
+from diffusers_fixed.utils import load_image
 from replicate import Predictor
 
 class Predict(Predictor):
